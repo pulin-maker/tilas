@@ -2,16 +2,14 @@ package com.nanjiabawa.controller;
 
 import com.nanjiabawa.mapper.EmpMapper;
 import com.nanjiabawa.pojo.Emp;
+import com.nanjiabawa.pojo.EmpQueryParam;
 import com.nanjiabawa.pojo.PageResult;
 import com.nanjiabawa.pojo.Result;
 import com.nanjiabawa.service.EmpService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -33,15 +31,16 @@ public class EmpController {
     }
 
     @GetMapping
-    public Result page(@RequestParam(defaultValue = "0") Integer page,
-                       @RequestParam(defaultValue = "10") Integer pageSize,
-                       String name,
-                       Integer gender,
-                       @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate begin,
-                       @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate end
-    ) {
-        log.info("分页查询，查询页号为: {}, 每页展示: {}", page, pageSize);
-        PageResult pageResult = empService.page(page, pageSize, name, gender, begin, end);
+    public Result page(EmpQueryParam empQueryParam) {
+        log.info("分页查询，查询页号为: {}, 每页展示: {}", empQueryParam.getPage(), empQueryParam.getPageSize());
+        PageResult pageResult = empService.page(empQueryParam);
         return Result.success(pageResult);
+    }
+
+    @PostMapping
+    public Result addEmpInfo(@RequestBody Emp emp) {
+        log.info("添加员工及员工工作经历: {}", emp);
+        empService.addEmpInfo(emp);
+        return Result.success();
     }
 }

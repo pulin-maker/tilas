@@ -4,6 +4,7 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.nanjiabawa.mapper.EmpMapper;
 import com.nanjiabawa.pojo.Emp;
+import com.nanjiabawa.pojo.EmpQueryParam;
 import com.nanjiabawa.pojo.PageResult;
 import com.nanjiabawa.service.EmpService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +25,7 @@ public class EmpServiceImpl implements EmpService {
     }
 
     @Override
-    public PageResult page(Integer page, Integer pageSize, String name, Integer gender, LocalDate begin, LocalDate end) {
+    public PageResult page(EmpQueryParam empQueryParam) {
 
         /*
         // 原始分页查询实现方法
@@ -33,12 +34,17 @@ public class EmpServiceImpl implements EmpService {
         List<Emp> rows = empMapper.selectCurrentPage(start, pageSize);
          */
 
-        PageHelper.startPage(page, pageSize);
+        PageHelper.startPage(empQueryParam.getPage(), empQueryParam.getPageSize());
 //        List<Emp> rows = empMapper.selectAll();
-        List<Emp> rows = empMapper.selectByCondition(name, gender, begin, end);
+        List<Emp> rows = empMapper.selectByCondition(empQueryParam);
         Page<Emp> p =  (Page<Emp>) rows;
 
 
         return new PageResult(p.getTotal(), rows);
+    }
+
+    @Override
+    public void addEmpInfo(Emp emp) {
+        empMapper.addEmpInfo(emp);
     }
 }

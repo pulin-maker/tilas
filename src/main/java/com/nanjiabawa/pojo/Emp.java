@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.bind.Bindable;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -26,4 +27,6 @@ public class Emp {
     private LocalDateTime updateTime;
 
     private String deptName;
+
+    private List<EmpExpr> empExprs;
 }
