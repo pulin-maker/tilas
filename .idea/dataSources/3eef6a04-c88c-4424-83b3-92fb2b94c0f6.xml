@@ -1062,6 +1062,10 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Charset>utf8mb4</Charset>
     </collation>
     <schema id="288" parent="1" name="mysql">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
+      <Grants>user|||mysql.session|localhost|SELECT|G</Grants>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2025-12-22.08:58:07</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="289" parent="1" name="information_schema">
