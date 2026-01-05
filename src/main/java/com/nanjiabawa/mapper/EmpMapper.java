@@ -1,12 +1,11 @@
 package com.nanjiabawa.mapper;
 
 import com.nanjiabawa.pojo.Emp;
-import com.nanjiabawa.pojo.EmpExpr;
 import com.nanjiabawa.pojo.EmpQueryParam;
 import org.apache.ibatis.annotations.*;
 
-import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface EmpMapper {
@@ -29,6 +28,12 @@ public interface EmpMapper {
     Emp getEmpInfoById(Integer id);
 
     void updateEmpById(Emp emp);
+
+    @MapKey("pos")
+    List<Map<String, Object>> countEmpJobData();
+
+    @MapKey("gender")
+    List<Map> getGenderInfo();
 
 //    @Select("select e.*, d.name as dept_name from emp e left join dept d on e.dept_id = d.id limit #{page}, #{pageNum}")
 //    List<Emp> selectCurrentPage(Integer page, Integer pageNum);

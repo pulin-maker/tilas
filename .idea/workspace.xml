@@ -7,30 +7,22 @@
     <list default="true" id="bb6b29ce-e011-4825-9392-e612d796ced9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3eef6a04-c88c-4424-83b3-92fb2b94c0f6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3eef6a04-c88c-4424-83b3-92fb2b94c0f6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/controller/EmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/controller/EmpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/mapper/EmpExprMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/mapper/EmpExprMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/controller/ReportController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/mapper/EmpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/mapper/EmpMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/pojo/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/pojo/Emp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/pojo/EmpExpr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/pojo/EmpExpr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/pojo/EmpQueryParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/pojo/EmpQueryParam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/EmpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/EmpService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/impl/EmpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/ReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/impl/ReportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/impl/ReportServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/utils/AliyunOSSOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/utils/AliyunOSSOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/nanjiabawa/mapper/EmpExprMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/nanjiabawa/mapper/EmpExprMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/nanjiabawa/mapper/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/nanjiabawa/mapper/EmpMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/controller/EmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/controller/EmpController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/mapper/EmpMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/mapper/EmpMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/mapper/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/mapper/EmpMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/Emp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/EmpExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/EmpExpr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/service/EmpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/service/EmpService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/service/impl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/service/impl/EmpServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/EmpQueryParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/EmpQueryParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/utils/AliyunOSSOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/utils/AliyunOSSOperator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -83,38 +76,38 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.TilasApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/springboot学习/tilas&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.TilasApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/javacode/springboot/tilas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\springboot学习\tilas\src\main\java\com\nanjiabawa\controller" />
