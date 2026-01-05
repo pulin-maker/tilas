@@ -13,4 +13,10 @@ public interface EmpService {
     PageResult page(EmpQueryParam empQueryParam);
 
     void addEmpInfo(Emp emp);
+
+    void deleteByIds(List<Integer> ids);
+
+    Emp getEmpInfoById(Integer id);
+
+    void updateInfo(Emp emp);
 }

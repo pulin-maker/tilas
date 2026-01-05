@@ -43,4 +43,24 @@ public class EmpController {
         empService.addEmpInfo(emp);
         return Result.success();
     }
+
+    @DeleteMapping
+    public Result deleteEmpInfo(@RequestParam List<Integer> ids) {
+        log.info("删除员工: {}", ids.toString());
+        empService.deleteByIds(ids);
+        return Result.success();
+    }
+
+    @GetMapping("/{id}")
+    public Result getEmpInfoById(@PathVariable Integer id) {
+        Emp emp = empService.getEmpInfoById(id);
+        return Result.success(emp);
+    }
+
+    @PutMapping
+    public Result updateEmpInfo(@RequestBody Emp emp) {
+        empService.updateInfo(emp);
+        return Result.success();
+    }
+
 }

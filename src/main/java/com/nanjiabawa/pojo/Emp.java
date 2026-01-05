@@ -3,8 +3,8 @@ package com.nanjiabawa.pojo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.boot.context.properties.bind.Bindable;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -21,12 +21,12 @@ public class Emp {
     private Integer job;
     private Integer salary;
     private String image;
-    private LocalDateTime entryDate;
+    private LocalDate entryDate;
     private Integer deptId;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
 
     private String deptName;
 
-    private List<EmpExpr> empExprs;
+    private List<EmpExpr> exprList;
 }
