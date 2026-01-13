@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb6b29ce-e011-4825-9392-e612d796ced9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/pojo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3eef6a04-c88c-4424-83b3-92fb2b94c0f6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3eef6a04-c88c-4424-83b3-92fb2b94c0f6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/controller/EmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/controller/EmpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/mapper/EmpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/mapper/EmpMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/pojo/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/pojo/PageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/EmpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/EmpService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/impl/EmpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanjiabawa/service/impl/EmpServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/nanjiabawa/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/nanjiabawa/mapper/StudentMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/controller/EmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/controller/EmpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/mapper/EmpMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/mapper/EmpMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/PageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/PageResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/service/EmpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/service/EmpService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/service/impl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/service/impl/EmpServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/ClazzQueryParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanjiabawa/pojo/ClazzQueryParam.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +105,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "settings.editor.splitter.proportion": "0.26907632",
     "vue.rearranger.settings.migration": "true"
   },
@@ -174,6 +165,9 @@
       <workItem from="1767661117657" duration="1485000" />
       <workItem from="1767662630197" duration="13968000" />
       <workItem from="1768291982353" duration="4040000" />
+      <workItem from="1768301190541" duration="231000" />
+      <workItem from="1768301436205" duration="494000" />
+      <workItem from="1768314549793" duration="1594000" />
     </task>
     <servers />
   </component>
