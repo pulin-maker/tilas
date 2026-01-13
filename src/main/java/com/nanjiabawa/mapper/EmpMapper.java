@@ -35,6 +35,10 @@ public interface EmpMapper {
     @MapKey("gender")
     List<Map> getGenderInfo();
 
+
+    @Select("select name from emp where id = #{masterId}")
+    String selectNameById(Integer masterId);
+
 //    @Select("select e.*, d.name as dept_name from emp e left join dept d on e.dept_id = d.id limit #{page}, #{pageNum}")
 //    List<Emp> selectCurrentPage(Integer page, Integer pageNum);
 }

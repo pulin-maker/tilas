@@ -33,7 +33,7 @@ public class EmpController {
     @GetMapping
     public Result page(EmpQueryParam empQueryParam) {
         log.info("分页查询，查询页号为: {}, 每页展示: {}", empQueryParam.getPage(), empQueryParam.getPageSize());
-        PageResult pageResult = empService.page(empQueryParam);
+        PageResult<Emp> pageResult = empService.page(empQueryParam);
         return Result.success(pageResult);
     }
 

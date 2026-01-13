@@ -32,7 +32,7 @@ public class EmpServiceImpl implements EmpService {
     }
 
     @Override
-    public PageResult page(EmpQueryParam empQueryParam) {
+    public PageResult<Emp> page(EmpQueryParam empQueryParam) {
 
         /*
         // 原始分页查询实现方法
@@ -44,7 +44,7 @@ public class EmpServiceImpl implements EmpService {
         PageHelper.startPage(empQueryParam.getPage(), empQueryParam.getPageSize());
 //        List<Emp> rows = empMapper.selectAll();
         List<Emp> rows = empMapper.selectByCondition(empQueryParam);
-        Page<Emp> p =  (Page<Emp>) rows;
+        Page<Emp> p = (Page<Emp>) rows;
 
 
         return new PageResult(p.getTotal(), rows);

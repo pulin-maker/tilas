@@ -9,7 +9,7 @@ import java.util.List;
 public interface EmpService {
     List<Emp> selectAll();
 
-    PageResult page(EmpQueryParam empQueryParam);
+    PageResult<Emp> page(EmpQueryParam empQueryParam);
 
     void addEmpInfo(Emp emp);
 
