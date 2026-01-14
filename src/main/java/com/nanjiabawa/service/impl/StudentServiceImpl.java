@@ -10,6 +10,7 @@ import com.nanjiabawa.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -25,5 +26,32 @@ public class StudentServiceImpl implements StudentService {
         Page<Student> page = (Page<Student>) rows;
 
         return new PageResult<>(page.getTotal(), rows);
+    }
+
+    @Override
+    public void insertStudent(Student student) {
+        student.setCreateTime(LocalDateTime.now());
+        student.setUpdateTime(LocalDateTime.now());
+        studentMapper.insertStudent(student);
+    }
+
+    @Override
+    public Student selectById(Integer id) {
+        return studentMapper.selectById(id);
+    }
+
+    @Override
+    public void updateStudent(Student student) {
+        studentMapper.updateStudent(student);
+    }
+
+    @Override
+    public void deleteByIds(List<Integer> ids) {
+        studentMapper.deleteByIds(ids);
+    }
+
+    @Override
+    public void dealViolation(Integer id, Integer score) {
+        studentMapper.dealViolation(id, score);
     }
 }

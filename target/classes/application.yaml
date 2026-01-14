@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tilas
     username: root
-    password: Chubao88!
+    password: 123456
   #图片上传大小设置
   servlet:
     multipart:

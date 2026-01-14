@@ -1,5 +1,6 @@
 package com.nanjiabawa.controller;
 
+import com.nanjiabawa.pojo.ClassOption;
 import com.nanjiabawa.pojo.JobOption;
 import com.nanjiabawa.pojo.Result;
 import com.nanjiabawa.service.ReportService;
@@ -28,6 +29,18 @@ public class ReportController {
     public Result getGenderCount() {
         List<Map> genderInfo = reportService.getGenderCount();
         return Result.success(genderInfo);
+    }
+
+    @GetMapping("/studentCountData")
+    public Result getClassNumber() {
+        ClassOption classOption = reportService.getClassStuData();
+        return Result.success(classOption);
+    }
+
+    @GetMapping("/studentDegreeData")
+    public Result getStuDegree() {
+        List<Map<String, Integer>> list = reportService.getStuDegree();
+        return Result.success(list);
     }
 
 }
