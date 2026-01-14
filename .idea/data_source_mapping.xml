@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="DataSourcePerFileMappings">
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/3eef6a04-c88c-4424-83b3-92fb2b94c0f6/console.sql" value="3eef6a04-c88c-4424-83b3-92fb2b94c0f6" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/3eef6a04-c88c-4424-83b3-92fb2b94c0f6/console_1.sql" value="3eef6a04-c88c-4424-83b3-92fb2b94c0f6" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/3eef6a04-c88c-4424-83b3-92fb2b94c0f6/console_2.sql" value="3eef6a04-c88c-4424-83b3-92fb2b94c0f6" />
-    <file url="file://$PROJECT_DIR$/src/main/resources/com/nanjiabawa/mapper/EmpMapper.xml" value="3eef6a04-c88c-4424-83b3-92fb2b94c0f6" />
-  </component>
-</project>
